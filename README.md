@@ -1,13 +1,9 @@
 # ECPv2: Fast, Efficient, and Scalable Global Optimization of Lipschitz Functions
 
 This repository contains the official implementation of ECPv2, an advanced algorithm for non-convex black-box global optimization of Lipschitz functions.
-ECPv2 is introduced in:
+ECPv2 is introduced in: "ECPv2: Fast, Efficient, and Scalable Global Optimization of Lipschitz Functions" (AAAI 2026)
 
-ECPv2: Fast, Efficient, and Scalable Global Optimization of Lipschitz Functions, AAAI 2026 (to appear)
-
-ECPv2 extends the original ECP algorithm proposed in:
-
-Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants
+ECPv2 extends the original ECP algorithm proposed in: "Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants"
 https://arxiv.org/abs/2502.04290
 
 This framework is built on top of the initial ECP implementation, available in the companion repository:
@@ -15,7 +11,7 @@ This framework is built on top of the initial ECP implementation, available in t
 
 <img src="figures/surface_plot.png" width="800" height="300"/>
 
-## Highlights
+## Highlights of ECP
 
 ECP is a global optimization algorithm for maximization that **minimizes unpromising evaluations** by concentrating on potentially optimal regions. It eliminates the need for estimating the Lipschitz constant, thus avoiding unnecessary evaluations. 
 
@@ -23,7 +19,7 @@ ECP guarantees no-regret performance and achieves **minimax-optimal** regret wit
 
 Empirical results show that ECP **outperforms 10 benchmark algorithms** including Lipschitz, Bayesian, bandits, and evolutionary methods across **30 multi-dimensional optimization problems**, which are available under ```functions/```.
 
-## Quick Tutorials with Google Colab
+## Quick Tutorials with Google Colab on ECP
 
 The following tutorials are available as Jupyter notebooks and can be opened directly in Google Colab for an interactive experience:
 
