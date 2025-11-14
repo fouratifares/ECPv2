@@ -1,6 +1,17 @@
-# Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants
+# ECPv2: Fast, Efficient, and Scalable Global Optimization of Lipschitz Functions
 
-This repository implements **ECP** algorithm for solving non-convex black-box global optimization problems, as introduced in [Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants](https://arxiv.org/abs/2502.04290v1). 
+This repository contains the official implementation of ECPv2, an advanced algorithm for non-convex black-box global optimization of Lipschitz functions.
+ECPv2 is introduced in:
+
+ECPv2: Fast, Efficient, and Scalable Global Optimization of Lipschitz Functions, AAAI 2026 (to appear)
+
+ECPv2 extends the original ECP algorithm proposed in:
+
+Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants
+https://arxiv.org/abs/2502.04290
+
+This framework is built on top of the initial ECP implementation, available in the companion repository:
+👉 https://github.com/fouratifares/ECP
 
 <img src="figures/surface_plot.png" width="800" height="300"/>
 
